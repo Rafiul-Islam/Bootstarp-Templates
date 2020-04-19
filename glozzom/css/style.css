@@ -1,0 +1,29 @@
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+nav .active {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+#carouselExampleIndicators {
+    margin-top: 58px;
+}
+
+#carouselExampleIndicators,
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
