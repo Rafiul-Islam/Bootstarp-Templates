@@ -117,47 +117,47 @@ nav .active {
     margin-top: -50px;
 }
 
-.carousel-inner,
-.carousel-item {
+.about-page-carousel-inner,
+.about-page-carousel-item {
     width: 100%;
     height: 120px;
 }
 
 @media (min-width: 502px) and (max-width: 884px) {
-    .carousel-inner,
-    .carousel-item {
+    .about-page-carousel-inner,
+    .about-page-carousel-item {
         width: 100%;
         height: 140px;
     }
 }
 
 @media (min-width: 348px) and (max-width: 501px) {
-    .carousel-inner,
-    .carousel-item {
+    .about-page-carousel-inner,
+    .about-page-carousel-item {
         width: 100%;
         height: 180px;
     }
 }
 
 @media (min-width: 316px) and (max-width: 347px) {
-    .carousel-inner,
-    .carousel-item {
+    .about-page-carousel-inner,
+    .about-page-carousel-item {
         width: 100%;
         height: 200px;
     }
 }
 
 @media (min-width: 255px) and (max-width: 315px) {
-    .carousel-inner,
-    .carousel-item {
+    .about-page-carousel-inner,
+    .about-page-carousel-item {
         width: 100%;
         height: 230px;
     }
 }
 
 @media (max-width: 254px) {
-    .carousel-inner,
-    .carousel-item {
+    .about-page-carousel-inner,
+    .about-page-carousel-item {
         width: 100%;
         height: 270px;
     }
