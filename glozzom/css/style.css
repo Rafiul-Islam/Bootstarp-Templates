@@ -1,5 +1,5 @@
 .navbar-brand {
-    font-size: 22px;
+    font-size: 21px;
     font-weight: 400;
 }
 
@@ -15,11 +15,11 @@
 
 nav .active {
     border-left: 1px solid gray;
-    border-right: 1px solid gray;
 }
 
-#carouselExampleIndicators {
-    margin-top: 58px;
+#carouselExampleIndicators,
+#about-page-header-section {
+    margin-top: 56px;
 }
 
 .carousel-item {
@@ -94,4 +94,71 @@ nav .active {
     font-weight: normal;
     color: #fff;
     opacity: 1;
+}
+
+#about-page-header-section {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+.about-page-dark-overlay {
+    position: absolute;
+    top: 56;
+    left: 0;
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.about-img {
+    margin-top: -50px;
+}
+
+.carousel-inner,
+.carousel-item {
+    width: 100%;
+    height: 120px;
+}
+
+@media (min-width: 502px) and (max-width: 884px) {
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 140px;
+    }
+}
+
+@media (min-width: 348px) and (max-width: 501px) {
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+@media (min-width: 316px) and (max-width: 347px) {
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (min-width: 255px) and (max-width: 315px) {
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 254px) {
+    .carousel-inner,
+    .carousel-item {
+        width: 100%;
+        height: 270px;
+    }
 }
