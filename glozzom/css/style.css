@@ -20,7 +20,8 @@ nav .active {
 #carouselExampleIndicators,
 #about-page-header-section,
 #service-page-header-section,
-#contact-page-header-section {
+#contact-page-header-section,
+#blog-page-header-section {
     margin-top: 56px;
 }
 
@@ -151,6 +152,23 @@ nav .active {
 }
 
 .contact-page-dark-overlay {
+    position: absolute;
+    top: 56;
+    left: 0;
+    width: 100%;
+    min-height: 250px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+#blog-page-header-section {
+    background: url('../img/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+
+.blog-page-dark-overlay {
     position: absolute;
     top: 56;
     left: 0;
