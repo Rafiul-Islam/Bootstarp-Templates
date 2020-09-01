@@ -1,1 +1,1 @@
-I have completed the udemy course ("https://www.udemy.com/course/bootstrap-4-from-scratch-with-5-projects/") and completed the five project in this course. Those project are added to this repository
+[Blogen](https://vigorous-allen-f9eaaa.netlify.app/), [Glozzom](https://hungry-liskov-252dea.netlify.app/), [Mizuxe](https://stupefied-roentgen-f3c200.netlify.app/), [LoopLab](https://nifty-gates-8f5f9f.netlify.app/), [portfolio](https://eager-montalcini-e0f107.netlify.app/)
